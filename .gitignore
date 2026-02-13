@@ -1,3 +1,10 @@
-./env
+# Environment variables (local only)
 .env
-env
+.env.*
+!.env.example
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
